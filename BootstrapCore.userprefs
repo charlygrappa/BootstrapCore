@@ -1,3 +1,16 @@
 ﻿<Properties StartupConfiguration="{98B5E4F5-C984-4829-8029-E013F602426D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BootstrapCore/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="BootstrapCore/Views/Shared/_Layout.cshtml" Line="232" Column="9" />
+      <File FileName="BootstrapCore/wwwroot/index.html" Line="1114" Column="1" />
+      <File FileName="BootstrapCore/Views/Home/Index.cshtml" Line="4" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BootstrapCore PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
