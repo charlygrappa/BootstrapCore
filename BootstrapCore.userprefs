@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{98B5E4F5-C984-4829-8029-E013F602426D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BootstrapCore/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BootstrapCore/Controllers/InscriptionController.cs">
     <Files>
-      <File FileName="BootstrapCore/Views/Shared/_Layout.cshtml" Line="232" Column="9" />
-      <File FileName="BootstrapCore/wwwroot/index.html" Line="1114" Column="1" />
       <File FileName="BootstrapCore/Views/Home/Index.cshtml" Line="4" Column="1" />
+      <File FileName="BootstrapCore/Services/InscriptionService.cs" Line="17" Column="20" />
+      <File FileName="BootstrapCore/Domain/Inscription.cs" Line="12" Column="9" />
+      <File FileName="BootstrapCore/AppDbContext.cs" Line="10" Column="9" />
+      <File FileName="BootstrapCore/DataInitializer.cs" Line="14" Column="13" />
+      <File FileName="BootstrapCore/Startup.cs" Line="77" Column="1" />
+      <File FileName="BootstrapCore/Controllers/InscriptionController.cs" Line="16" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
