@@ -1,18 +1,23 @@
-﻿<Properties StartupConfiguration="{98B5E4F5-C984-4829-8029-E013F602426D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BootstrapCore/Controllers/InscriptionController.cs">
+﻿<Properties StartupConfiguration="{F99C0635-841B-4BA5-98BC-F3567CB4A742}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/StateMachineTests.cs">
     <Files>
-      <File FileName="BootstrapCore/Views/Home/Index.cshtml" Line="4" Column="1" />
-      <File FileName="BootstrapCore/Services/InscriptionService.cs" Line="17" Column="20" />
-      <File FileName="BootstrapCore/Domain/Inscription.cs" Line="12" Column="9" />
-      <File FileName="BootstrapCore/AppDbContext.cs" Line="10" Column="9" />
-      <File FileName="BootstrapCore/DataInitializer.cs" Line="14" Column="13" />
-      <File FileName="BootstrapCore/Startup.cs" Line="77" Column="1" />
-      <File FileName="BootstrapCore/Controllers/InscriptionController.cs" Line="16" Column="9" />
+      <File FileName="Tests/StateMachineTests.cs" Line="11" Column="35" />
+      <File FileName="BootstrapCore/Domain/StateMachines/CongressInscriptionState.cs" Line="9" Column="1" />
+      <File FileName="BootstrapCore/Domain/StateMachines/CongressInscriptionTrigger.cs" Line="6" Column="9" />
+      <File FileName="BootstrapCore/Domain/StateMachines/CongressInscriptionStateMachine.cs" Line="47" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/cgrappa/MMD/POC/BootstrapCore/BootstrapCore/Domain/StateMachines/CongressInscriptionStateMachine.cs" relfile="BootstrapCore/Domain/StateMachines/CongressInscriptionStateMachine.cs" line="54" column="81" />
+      <Breakpoint file="/Users/cgrappa/MMD/POC/BootstrapCore/Tests/UnitTest1.cs" relfile="Tests/UnitTest1.cs" line="18" column="1" />
+      <Breakpoint file="/Users/cgrappa/MMD/POC/BootstrapCore/Tests/UnitTest1.cs" relfile="Tests/UnitTest1.cs" line="15" column="1" />
+      <Breakpoint file="/Users/cgrappa/MMD/POC/BootstrapCore/Tests/UnitTest1.cs" relfile="Tests/UnitTest1.cs" line="13" column="1" />
+      <Breakpoint file="/Users/cgrappa/MMD/POC/BootstrapCore/BootstrapCore/Domain/StateMachines/CongressInscriptionStateMachine.cs" relfile="BootstrapCore/Domain/StateMachines/CongressInscriptionStateMachine.cs" line="40" column="1" />
+      <Breakpoint file="/Users/cgrappa/MMD/POC/BootstrapCore/BootstrapCore/Domain/StateMachines/CongressInscriptionStateMachine.cs" relfile="BootstrapCore/Domain/StateMachines/CongressInscriptionStateMachine.cs" line="50" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BootstrapCore PreferredExecutionTarget="MonoDevelop.Default" />

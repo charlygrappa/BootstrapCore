@@ -8,6 +8,7 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.0" />
+    <PackageReference Include="Stateless" Version="4.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,5 +20,6 @@
     <Folder Include="Views\Inscription\" />
     <Folder Include="Domain\" />
     <Folder Include="Services\" />
+    <Folder Include="Domain\StateMachines\" />
   </ItemGroup>
 </Project>

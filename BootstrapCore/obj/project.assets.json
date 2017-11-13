@@ -3106,6 +3106,18 @@
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
         }
       },
+      "Stateless/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Stateless.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Stateless.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7987,6 +7999,18 @@
         },
         "runtime": {
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
+        }
+      },
+      "Stateless/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Stateless.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Stateless.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -13041,6 +13065,18 @@
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
         }
       },
+      "Stateless/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Stateless.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Stateless.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -18091,6 +18127,18 @@
         },
         "runtime": {
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
+        }
+      },
+      "Stateless/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Stateless.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Stateless.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -23924,6 +23972,21 @@
         "stackexchange.redis.strongname.nuspec"
       ]
     },
+    "Stateless/4.0.0": {
+      "sha512": "fkVF0N/w1oajpjIv9MnW8d5s7i5bFnQQRnuDClNWyHO+iqXgRTH8E7IUNxVRyFW4xhwgBWP29EkpIqFinT3wNw==",
+      "type": "package",
+      "path": "stateless/4.0.0",
+      "files": [
+        "lib/net40/Stateless.dll",
+        "lib/net40/Stateless.xml",
+        "lib/net45/Stateless.dll",
+        "lib/net45/Stateless.xml",
+        "lib/netstandard1.0/Stateless.dll",
+        "lib/netstandard1.0/Stateless.xml",
+        "stateless.4.0.0.nupkg.sha512",
+        "stateless.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -28522,7 +28585,8 @@
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Stateless >= 4.0.0"
     ]
   },
   "packageFolders": {
@@ -28577,6 +28641,10 @@
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "Stateless": {
+            "target": "Package",
+            "version": "4.0.0"
           }
         },
         "imports": [

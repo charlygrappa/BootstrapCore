@@ -20,7 +20,6 @@ namespace BootstrapCore.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var ret = InscriptionService.GetInscriptionsByUserId("BEBIS");
             return View();
         }
     }
